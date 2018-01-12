@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Тестовый заголовок - тест JSON-LD разметки</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+        <!-- микроразметка -->
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "url": ""
+                },
+                "@type": "NewsArticle",
+                "url": "",
+                "name": "Тестовый заголовок - тест JSON-LD разметки",
+                "headline": "Тестовый заголовок - тест JSON-LD разметки",
+                "articleSection": "Разработка",
+                "author": {
+                    "@type": "Person",
+                    "name": "Lipetsk Team"
+                },
+                "datePublished": "12-01-2018",
+                "dateModified": "12-01-2018",
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "https://static2.smi2.net/img/730x300/4534661.png",
+                    "width": "470",
+                    "height": "246"
+                },
+                "articleBody": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos...",
+                "publisher": {
+                    "@type": "Organization",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://smi2.ru/img/smi2.ru/favicon.ico",
+                        "width": "16",
+                        "height": "16"    
+                    },
+                    "name": "smi2.ru",
+                    "address": "Moscow",
+                    "telephone": "89001234567"
+                }
+            }
+        </script>
+
+        <!-- иконка -->
+        <link rel="shortcut icon" href="https://smi2.ru/img/smi2.ru/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="https://smi2.ru/img/smi2.ru/icon-touch.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://smi2.ru/img/smi2.ru/icon-touch-76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://smi2.ru/img/smi2.ru/icon-touch-120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://smi2.ru/img/smi2.ru/icon-touch-152.png">
+
+        <!-- мета для поисковиков/социалок -->
+        <link rel="image_src" href="https://static2.smi2.net/img/730x300/4534661.png"/>
+        <meta property="title" content="Тестовый заголовок - тест JSON-LD разметки"/>
+        <meta property="og:title" content="Тестовый заголовок - тест JSON-LD разметки"/>
+        <meta property="og:url" content=""/>
+        <meta property="og:image" content="https://static2.smi2.net/img/730x300/4534661.png"/>
+		<meta property="og:type" content="article" />
+        <meta property="og:description" content="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos..."/>
+        <meta property="og:site_name" content="smi2.ru"/>
+    </head>
+    <body>
+        <!-- микроразметка -->
+        <div>
+			<!-- заголовок -->
+            <h1>Тестовый заголовок</h1>
+
+			<!-- раздел -->
+			<div><small>Разработка</small></div>
+
+			<!-- источник -->
+            <div>
+                Lipetsk Team
+            </div>
+
+            <!-- даты -->
+            <div>12-01-2018</div>
+
+			<!-- изображение -->
+            <div>
+                <img alt="Тестовый заголовок" src="https://static2.smi2.net/img/730x300/4534661.png"/>
+            </div>
+
+            <!-- анонс -->
+            <div><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos...</p></div>
+
+			<!-- организация, которая публикует материал -->
+            <div>
+                <a><img alt="Лого" src="https://smi2.ru/img/smi2.ru/favicon.ico"/>smi2.ru</a>
+            </div>
+
+            <!-- ccылка на статью -->
+            <a href=""></a>
+        </div>
+    </body>
+</html>
